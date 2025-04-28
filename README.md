@@ -1,21 +1,20 @@
-1. Generate Token Api
+## 1. Generate Token Api
 
 ```curl
 https://jhthkkgf-3000.inc1.devtunnels.ms/user/generateToken
 Post method
 ```
-
+### Request Body
 ```json
-// request body
+
 {
     "clientID": "",
     "secretKey": ""
-// send on whatsapp
+
 }
 ```
-
+### Response Body (Status: 200)
 ```json
-// response body
 {
 
     "status": true,
@@ -30,15 +29,15 @@ Post method
 
 }
 ```
-2. Register Api
+## 2. Register Api
 ```curl
 https://jhthkkgf-3000.inc1.devtunnels.ms/user/web-register
 Post Method
 ```
 
-
+### Request Body
 ```json
-// request body
+
 {
 
   "reg_username": "John Doe",
@@ -56,9 +55,9 @@ Post Method
 }
 ```
 
+### Response Body (Status: 201)
 ```json
-// response body
-// status 201
+
 {
     "status": true,
     "message": "Web User has been successfully registered."
