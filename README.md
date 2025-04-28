@@ -29,10 +29,13 @@ Post method
 
 }
 ```
+
 ## 2. Register Api
 ```curl
 https://jhthkkgf-3000.inc1.devtunnels.ms/user/web-register
 Post Method
+Header
+Authorization: token generated from the above api
 ```
 
 ### Request Body
